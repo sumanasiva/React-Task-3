@@ -1,0 +1,29 @@
+body {
+  background-image: radial-gradient(circle, #d0b2d4, #b5b7de);
+}
+#rem {
+  border-style: solid;
+}
+
+.color-picker {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+.color-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.color {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  box-shadow: 0 0 5px;
+}
+
+.selected-color {
+  font-weight: bold;
+}
